@@ -3,13 +3,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background: url(media/media/gradient.jpg) no-repeat center center/cover;
+    background: url(Project1/media/gradient.jpg) no-repeat center center/cover;
     color: white;
 }
 
 /* ======= HEADER ======= */
 header {
-    background: url(media/media/image 1.jpg) no-repeat center center/cover;
+    background: url(Project1/media/image 1.jpg) no-repeat center center/cover;
     height: 100vh;
     color: white;
     text-align: center;
