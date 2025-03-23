@@ -9,7 +9,7 @@ body {
 
 /* ======= HEADER ======= */
 header {
-    background: url(Project1/media/image_1.jpg) no-repeat center center/cover;
+    background: url(media/media/image_1.jpg) no-repeat center center/cover;
     height: 100vh;
     color: white;
     text-align: center;
