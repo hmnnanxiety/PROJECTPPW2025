@@ -228,10 +228,10 @@ footer {
     }
 }
 
-/* Untuk layar kecil (smartphone) */
+/* Untuk layar kecil (768px) */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
         align-items: center;
     }
@@ -247,7 +247,7 @@ footer {
     }
 }
 
-/* Untuk layar sangat kecil (smartphone kecil) */
+/* Untuk layar sangat kecil (480px) */
 @media (max-width: 480px) {
     nav {
         flex-direction: column;
