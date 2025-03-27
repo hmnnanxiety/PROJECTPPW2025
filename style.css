@@ -3,13 +3,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background: url(Project1/media/gradient.jpg) no-repeat center center/cover;
+    background: url(media/gradient.jpg) no-repeat center center/cover;
     color: white;
 }
 
 /* ======= HEADER ======= */
 header {
-    background: url(Project1/media/image1.jpg) no-repeat center center/cover;
+    background: url(media/image\ 1.jpg) no-repeat center center/cover;
     height: 100vh;
     color: white;
     text-align: center;
@@ -196,4 +196,67 @@ footer {
     color: white;
     padding: 15px 0;
     margin-top: 20px;
+}
+
+/* Untuk layar monitor 1440px */
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1200px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero h1 {
+        font-size: 2.2em;
+    }
+
+    .hero p {
+        font-size: 1.1em;
+    }
+
+    .who-are-we, .features, .reviews, .faq, .another-button {
+        padding: 40px;
+        margin: 50px auto;
+    }
+
+    figure img {
+        max-width: 350px;
+    }
+
+    .btn {
+        padding: 15px 35px;
+        font-size: 1.1em;
+    }
+}
+
+/* Untuk layar kecil (smartphone) */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .who-are-we {
+        flex-direction: column;
+        text-align: center;
+    }
+    article, figure {
+        max-width: 100%;
+    }
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Untuk layar sangat kecil (smartphone kecil) */
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .review-list {
+        flex-direction: column;
+    }
 }
